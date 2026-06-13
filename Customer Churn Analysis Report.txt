@@ -1,0 +1,189 @@
+# Customer Churn Analysis and Prediction
+
+## Project Overview
+
+Customer churn is one of the most important challenges faced by subscription-based businesses. Understanding why customers leave and identifying high-risk customer segments can help organizations improve retention strategies and reduce revenue loss.
+
+This project analyzes customer behavior using the IBM Telco Customer Churn dataset. The analysis includes data cleaning, exploratory data analysis (EDA), customer segmentation, churn driver identification, and machine learning-based churn prediction.
+
+---
+
+## Problem Statement
+
+Customer acquisition costs are often higher than customer retention costs. Therefore, businesses need to identify customers who are likely to leave and implement targeted retention strategies.
+
+The objective of this project is to:
+
+* Understand customer behavior patterns.
+* Identify major factors influencing churn.
+* Analyze customer demographics and service usage.
+* Predict customer churn using machine learning.
+* Generate actionable business recommendations.
+
+---
+
+## Dataset Information
+
+Dataset: IBM Telco Customer Churn Dataset
+
+The dataset contains customer demographic information, account details, subscribed services, billing information, and churn status.
+
+### Key Features
+
+| Feature         | Description                     |
+| --------------- | ------------------------------- |
+| gender          | Customer gender                 |
+| SeniorCitizen   | Senior citizen status           |
+| Partner         | Whether customer has a partner  |
+| Dependents      | Whether customer has dependents |
+| tenure          | Number of months as customer    |
+| PhoneService    | Phone service subscription      |
+| InternetService | Internet service type           |
+| Contract        | Contract type                   |
+| PaymentMethod   | Customer payment method         |
+| MonthlyCharges  | Monthly billing amount          |
+| TotalCharges    | Total charges incurred          |
+| Churn           | Target variable                 |
+
+Dataset Size: Approximately 7,000 customer records.
+
+---
+
+## Tools and Technologies
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+* Jupyter Notebook
+
+---
+
+## Methodology
+
+### Data Cleaning and Preprocessing
+
+The following preprocessing steps were performed:
+
+* Loaded dataset using Pandas.
+* Converted TotalCharges to numeric format.
+* Handled missing values using median imputation.
+* Removed unnecessary columns.
+* Encoded categorical variables for machine learning models.
+
+### Exploratory Data Analysis (EDA)
+
+Several analyses were performed to identify churn patterns:
+
+* Churn Distribution Analysis
+* Contract Type Analysis
+* Payment Method Analysis
+* Internet Service Analysis
+* Monthly Charges Analysis
+* Customer Tenure Analysis
+* Customer Segmentation Analysis
+
+### Machine Learning
+
+A Random Forest Classifier was developed to predict customer churn.
+
+Model workflow:
+
+1. Feature selection
+2. Train-test split
+3. Model training
+4. Model evaluation
+5. Feature importance analysis
+
+---
+
+## Key Findings
+
+### 1. Contract Type Significantly Impacts Churn
+
+Customers with Month-to-Month contracts exhibit the highest churn rates compared to customers with annual contracts.
+
+### 2. New Customers Are More Likely to Churn
+
+Customers with shorter tenure are significantly more likely to leave the service.
+
+### 3. Higher Monthly Charges Increase Churn Risk
+
+Customers paying higher monthly charges demonstrate higher churn probabilities.
+
+### 4. Payment Method Influences Customer Retention
+
+Electronic Check users show relatively higher churn rates compared to customers using automatic payment methods.
+
+### 5. Additional Services Improve Retention
+
+Customers subscribed to services such as Online Security and Tech Support are more likely to remain with the company.
+
+---
+
+## Machine Learning Results
+
+### Model Used
+
+Random Forest Classifier
+
+### Performance
+
+* Accuracy: Approximately 78–82%
+* Successfully identifies customers with high churn risk.
+* Feature importance analysis highlights the most influential churn drivers.
+
+### Top Churn Drivers
+
+* Contract Type
+* Tenure
+* Monthly Charges
+* Total Charges
+* Internet Service
+* Payment Method
+
+---
+
+## Business Insights
+
+The analysis indicates that customer churn is primarily influenced by contract flexibility, pricing, customer tenure, and service adoption.
+
+Customers on short-term contracts and those with higher monthly charges represent the highest-risk customer segments. Customers who utilize value-added services tend to exhibit stronger loyalty and lower churn rates.
+
+---
+
+## Recommendations
+
+### Customer Retention
+
+* Encourage migration from Month-to-Month contracts to annual plans.
+* Offer retention discounts to high-risk customers.
+* Strengthen onboarding processes during the first year.
+* Provide loyalty rewards for long-term customers.
+
+### Service Adoption
+
+* Promote Online Security and Tech Support services.
+* Bundle additional services with existing subscriptions.
+
+### Predictive Analytics
+
+* Use churn prediction models to proactively identify at-risk customers.
+* Launch personalized retention campaigns before customer departure.
+
+---
+
+## Conclusion
+
+This project successfully analyzed customer behavior and identified major drivers of customer churn using data analytics and machine learning techniques. The findings provide actionable business insights that can help organizations improve customer retention, reduce churn rates, and maximize long-term profitability.
+
+The project demonstrates practical skills in data cleaning, exploratory data analysis, data visualization, customer segmentation, machine learning, and business intelligence, making it highly relevant for Data Analyst and Business Analyst roles.
+
+---
+
+## Author
+
+Rithika Rani R
+
+Aspiring Data Analyst | Python | SQL | Power BI | Data Visualization | Machine Learning
