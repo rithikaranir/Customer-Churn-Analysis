@@ -1,7 +1,5 @@
 # Customer-Churn-Analysis
 
-# Customer Churn Analysis using Python
-
 ## Project Overview
 
 Customer churn is a critical business problem that directly impacts revenue and customer retention. This project analyzes customer behavior data from a telecommunications company to identify key factors influencing customer churn and provide actionable recommendations for improving retention.
